@@ -2,7 +2,7 @@
 
 .navbar {
     background-color: #A90E0E;
-    font-size: 12px;
+    font-size: 0.9rem;
     border-bottom: 1px solid #fff;
     letter-spacing: 4px;
     text-transform: uppercase;
@@ -20,11 +20,72 @@
 
 .nav-pills .nav-link.active,
 .nav-pills .nav-link:hover {
-    color: #A90E0E !important;
+    color: blueviolet !important;
     background-color: #fff !important;
 }
 
 .navbar-toggler {
     color: #fff !important;
     border-style: none;
+}
+
+.petit {
+    width: 700px;
+    margin: auto;
+}
+
+.moyen {
+    width: 600px;
+    margin: auto;
+}
+
+
+/* CAROUSEL */
+
+.carousel {
+    margin-top: 5.5rem;
+}
+
+img {
+    height: 500px;
+}
+
+
+/* FORMULAIRE */
+
+.titre2 {
+    margin: 4rem 0 5rem 0;
+    font-size: 5rem;
+    color: cadetblue;
+}
+
+form {
+    text-align: center;
+    font-size: 2rem;
+    color: blueviolet;
+}
+
+.btn {
+    border-radius: 15px;
+    font-size: 1.5rem;
+    background-color: blueviolet;
+}
+
+
+/* CART */
+
+.card {
+    width: 18rem;
+    height: 300px;
+    border: 0.2rem black solid;
+    border-radius: 10%;
+    margin: 2rem auto 1rem auto;
+}
+
+.one {
+    margin-right: 0;
+}
+
+.two {
+    margin-left: 0;
 }
