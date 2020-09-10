@@ -1,0 +1,30 @@
+/* NAVBAR */
+
+.navbar {
+    background-color: #A90E0E;
+    font-size: 12px;
+    border-bottom: 1px solid #fff;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#myNavbar ul li {
+    margin-right: 7rem;
+}
+
+.nav-pills .nav-link {
+    color: #fff !important;
+    text-align: center;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .nav-link:hover {
+    color: #A90E0E !important;
+    background-color: #fff !important;
+}
+
+.navbar-toggler {
+    color: #fff !important;
+    border-style: none;
+}
